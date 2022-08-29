@@ -70,7 +70,7 @@ pip install -r requirements.txt
 ```
 ## Usage
 ### Step 1: download model&data
-You can get our model checkpoint and data in Ali-cloud 
+You can download our model checkpoint and training data in Ali-cloud 
 
 ### Step2: train answer extractor or load the model from checkpoint
 ```bash

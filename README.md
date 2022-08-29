@@ -27,6 +27,25 @@
 
 Our toolkit aiming for generate augmentation QA data from document data
 
+### Architecture
+
+
+```
+├── answer_extractor
+│   ├── __init__.py
+│   ├── main.py
+│   ├── model.py
+│   ├── trainer.py
+│   └── utils.py
+├── question_generator
+│   ├── __init__.py
+│   ├── train.py
+│   └── predict.py
+└── qa_filter
+    ├── __init__.py
+    └── pert_mrc.py
+```
+
 ### Data
 We pre-trained our answer extractor and question generator with the following dataset 
 - Dureader 

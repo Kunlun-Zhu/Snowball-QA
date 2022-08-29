@@ -1,10 +1,10 @@
 export MAX_SEQ_LEN=512
 export USE_CUDA=True
 export BATCH_SIZE=40
-export INPUT_DATA_DIR=/yinxr/hx/cpm-live/QA-Gen/results/5_combine_generate_filted.jsonl
-export OUTPUT_DATA_DIR=/yinxr/hx/cpm-live/QA-Gen/results/5_final.jsonl
-export PRETRAINED_PATH=/yinxr/hx/cpm-live/QA-Gen/pretrained_model/pert/
-export GPU_IDS=2
+export INPUT_DATA_DIR=./results/unfiltered/generate_filted.jsonl
+export OUTPUT_DATA_DIR=./results/filtered/final_pair.jsonl
+export PRETRAINED_PATH=./checkpoint/pretrained_model/pert/
+export GPU_IDS=0
 
 # export CUDA_VISIBLE_DEVICES=1,3
 

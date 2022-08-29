@@ -7,10 +7,10 @@ export WEIGHT_DECAY=0.0001
 export SAVE_INTERVAL=20
 export PRINT_INTERVAL=40000
 export SAVE_PATH=./output/
-export TRAIN_DATA_DIR=/data/private/wanghuadong/liangshihao/QA/data/dureader-robust/train.jsonl
-export TEST_DATA_DIR=/yinxr/hx/cpm-live/Answer_extractor/combine/8_combine.jsonl
-export PRETRAINED_PATH=/yinxr/hx/cpm-live/Answer_extractor/pretrained_model/bert-base-multilingual-cased/
-export GPU_IDS=7
+export TRAIN_DATA_DIR=./data/dureader-robust/demo_train.jsonl
+export TEST_DATA_DIR=./data/answer_extractor_data/demo.jsonl
+export PRETRAINED_PATH=./data/pretrained_model/bert-base-multilingual-cased/
+export GPU_IDS=0
 export INFERENCE_PATH=/yinxr/hx/cpm-live/Answer_extractor/output_combine/8_combine.jsonl
 
 python main.py \

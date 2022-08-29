@@ -1,0 +1,6 @@
+jieba==0.42.1
+sentencepiece==0.1.97
+torch==1.11.0
+tqdm==4.63.0
+transformers==4.14.1
+
